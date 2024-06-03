@@ -12,6 +12,7 @@ To run this program, you can utilize Remix, an online Solidity IDE. Begin by nav
 
 Once you're on the Remix website, initiate a new file by selecting the "+" icon in the left-hand sidebar. Save the file with a .sol extension (for instance, MyToken.sol). Then, copy and paste the provided code into the file.
 
+```javascript
 solidity
 Copy code
 // SPDX-License-Identifier: MIT
@@ -65,6 +66,7 @@ contract MyToken {
         balances[_address] -= _value;
     }
 }
+```
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile MyToken.sol" (or whatever the file name is) button.
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
