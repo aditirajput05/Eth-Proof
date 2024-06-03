@@ -31,8 +31,8 @@ pragma solidity 0.8.18;
        to the amount that is supposed to be burned.
 */
 
-contract MyToken {
 
+contract MyToken {
     // public variables here
     string public tokenName = "Philip";
     string public tokenAbbrv = "PHIL";
@@ -65,6 +65,8 @@ contract MyToken {
         balances[_address] -= _value;
     }
 }
+
+
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile MyToken.sol" (or whatever the file name is) button.
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
