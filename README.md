@@ -65,7 +65,8 @@ contract MyToken{
         // Decrease the balance of the specified address
         balances[_address] -= _value;
     }
-}```
+}
+```
 
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile MyToken.sol" (or whatever the file name is) button.
