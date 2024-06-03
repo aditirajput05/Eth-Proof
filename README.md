@@ -74,7 +74,7 @@ After deployment, you can interact with the contract using the default addresses
 ## Authors
 
 Aditi Rajput
-[@Chandigarh University](www.linkedin.com/in/aditi-rajput-b9360720b)
+[@Chandigarh University](https://www.linkedin.com/in/aditi-rajput-b9360720b/)
 
 
 ## License
