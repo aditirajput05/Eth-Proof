@@ -27,6 +27,8 @@ contract MyToken {
 
     // mint function
    function mint (address _address, uint _value) public{
+      // Ensure the value to be minted is not more than 10,000 tokens
+      require(_value <= 10000, "Cannot mint more than 10,000 tokens at a time");
       totalSupply += _value;
       balances[_address] += _value;
    }
@@ -35,10 +37,12 @@ contract MyToken {
     function burn(address _address, uint _value) public {
         // Ensure the address has enough tokens to burn
         require(balances[_address] >= _value, "Insufficient balance to burn");
-
+         // Ensure the value to be burned is not more than 10,000 tokens
+        require(_value <= 10000, "Cannot burn more than 10,000 tokens at a time");
         // Decrease the total supply by the burned amount
         totalSupply -= _value;
         // Decrease the balance of the specified address
         balances[_address] -= _value;
    }
 }
+
