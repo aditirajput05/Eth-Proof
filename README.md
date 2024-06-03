@@ -12,6 +12,7 @@ To run this program, you can utilize Remix, an online Solidity IDE. Begin by nav
 
 Once you're on the Remix website, initiate a new file by selecting the "+" icon in the left-hand sidebar. Save the file with a .sol extension (for instance, MyToken.sol). Then, copy and paste the provided code into the file.
 
+javascript
 solidity
 Copy code
 // SPDX-License-Identifier: MIT
@@ -81,4 +82,4 @@ Aditi Rajput
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
